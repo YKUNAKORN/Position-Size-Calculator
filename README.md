@@ -15,20 +15,6 @@ The **Position Size Calculator** is a simple JavaScript tool that helps traders 
 4. The user selects their **leverage (X)**.
 5. The calculator computes the optimal **position size** and displays it.
 
-## Formula Used
-\[
-RPT = \text{portfolioBalance} \times \left(\frac{\text{riskOfRuin}}{100}\right)
-\]
-\[
-\text{positionSize} = \frac{RPT}{\text{stopLoss}}
-\]
-\[
-\text{adjPositionSize} = \frac{\text{positionSize}}{\text{leverage}}
-\]
-\[
-\text{total} = \text{Math.round}\left(\left(\frac{RPT}{\text{stopLoss}}\right) / \text{leverage} \times 100\right)
-\]
-
 ## Installation & Usage
 1. Clone or download the project files.
 2. Open the **HTML file** in a browser that supports JavaScript.
