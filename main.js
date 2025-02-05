@@ -1,7 +1,7 @@
 // Position Size Calculator in JavaScript logic
 console.log("This is a Position Size Calculator!");
 
-const portfolioBalance = parseInt(prompt("ENTER YOUR PORTFOLIO BALANCE (USDT): "));
+const portfolioBalance = parseInt(prompt("ENTER YOUR PORTFOLIO BALANCE (USDT) : "));
 const riskOfRuin = parseInt(prompt("RISK OF RUIN (%) : "));
 const SL = parseFloat(prompt("% STOP LOSS (%) : "));
 const leverage = parseInt(prompt("LEVERAGE (X): "));
