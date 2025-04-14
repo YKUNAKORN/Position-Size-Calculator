@@ -79,11 +79,6 @@ position-size-calculator/
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🤝 Contributing
 
@@ -93,4 +88,4 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 ## 📧 Contact
 
-For any questions or feedback, feel free to reach out at [your-email@example.com].
+For any questions or feedback, feel free to reach out at [kunakorn.contact@gmail.com].
