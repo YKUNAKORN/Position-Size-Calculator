@@ -1,26 +1,96 @@
-Position Size Calculator
+# Position Size Calculator 📊
 
-เครื่องมือคำนวณขนาดการเปิดสถานะ (Position Size) สำหรับนักเทรดในตลาดคริปโตและฟอเร็กซ์ ช่วยให้คุณบริหารความเสี่ยงได้อย่างมีประสิทธิภาพ โดยใช้ข้อมูลจากพอร์ตการลงทุน ความเสี่ยงที่ยอมรับได้ จุดตัดขาดทุน (Stop Loss) และเลเวอเรจ ￼
+A modern web application to help traders calculate their optimal position size before entering a trade. Built with **Next.js**, **React**, and **TypeScript**, this tool ensures that traders can manage their risk effectively.
 
-🔧 คุณสมบัติ
-	•	รับข้อมูลจากผู้ใช้: ยอดเงินในพอร์ต (USDT), ความเสี่ยงที่ยอมรับได้ (%), จุดตัดขาดทุน (%), และเลเวอเรจ (X) ￼
-	•	คำนวณขนาดการเปิดสถานะที่เหมาะสมตามหลักการบริหารความเสี่ยง
-	•	แสดงผลลัพธ์ขนาดการเปิดสถานะที่แนะนำ ￼
+---
 
-🚀 วิธีใช้งาน
-	1.	ดาวน์โหลดหรือโคลนโปรเจกต์นี้
-	2.	เปิดไฟล์ index.html ด้วยเว็บเบราว์เซอร์ที่รองรับ JavaScript
-	3.	ป้อนข้อมูลพอร์ตการลงทุนของคุณตามคำแนะนำบนหน้าเว็บ
-	4.	รับผลลัพธ์ขนาดการเปิดสถานะที่แนะนำ
+## 🚀 Features
 
-📁 โครงสร้างโปรเจกต์
-	•	index.html – ไฟล์ HTML หลักของแอปพลิเคชัน
-	•	main.js – สคริปต์ JavaScript สำหรับการคำนวณ
-	•	style.css – ไฟล์ CSS สำหรับการจัดรูปแบบหน้าเว็บ
+- **User Inputs**: Accepts portfolio balance, risk percentage, stop loss percentage, and leverage.
+- **Real-Time Calculation**: Computes the position size dynamically based on user inputs.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Modern Tech Stack**: Built with Next.js, React, and TypeScript for scalability and maintainability.
 
-📄 License
+---
 
-โปรเจกต์นี้อยู่ภายใต้สัญญาอนุญาต MIT License
+## 🛠️ Installation
 
+Follow these steps to set up the project locally:
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YKUNAKORN/Position-Size-Calculator.git
+   cd position-size-calculator
+   ```
 
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 📂 Project Structure
+
+```
+position-size-calculator/
+├── src/
+│   ├── pages/               # Next.js pages
+│   │   ├── index.tsx        # Main page
+│   │   ├── _app.tsx         # App wrapper
+│   ├── styles/              # CSS modules
+│   │   ├── Home.module.css  # Styles for the home page
+│   ├── utils/               # Utility functions
+│       ├── calculatePositionSize.ts # Logic for position size calculation
+├── public/                  # Static assets
+├── package.json             # Project dependencies and scripts
+├── tsconfig.json            # TypeScript configuration
+└── README.md                # Project documentation
+```
+
+---
+
+## 🧮 How to Use
+
+1. Enter your **Portfolio Balance** in USDT.
+2. Specify the **Risk of Ruin** percentage.
+3. Enter the **Stop Loss** percentage.
+4. Provide the **Leverage** value.
+5. Click the **Calculate** button to see the recommended position size.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Next.js**: Framework for server-side rendering and static site generation.
+- **React**: JavaScript library for building user interfaces.
+- **TypeScript**: Superset of JavaScript for type safety.
+- **CSS Modules**: Scoped and modular CSS for styling.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
+
+---
+
+## 📧 Contact
+
+For any questions or feedback, feel free to reach out at [your-email@example.com].
