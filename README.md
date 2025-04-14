@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Position Size Calculator 📈
+# Position Size Calculator :chart_with_upwards_trend:
 
 ## Overview
 The **Position Size Calculator** is a simple JavaScript tool that helps traders calculate their optimal position size based on portfolio balance, risk percentage, stop loss, and leverage. 
@@ -23,23 +22,3 @@ The **Position Size Calculator** is a simple JavaScript tool that helps traders 
 4. View your calculated **position size** in the console.
 
 ## Example Output
-=======
-# Position Size Calculator
-
-A simple web application to calculate position size for trading, built with **Next.js** and **React**. This tool helps traders determine the appropriate position size based on their portfolio balance, risk percentage, stop loss percentage, and leverage.
-
-## Features
-
-- Calculate position size based on user inputs.
-- Responsive and user-friendly UI.
-- Built with modern web technologies: Next.js, React, and TypeScript.
-
-## Installation
-
-Follow these steps to set up the project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd position-size-calculator
->>>>>>> b1ba5f8 (Initial commit: Add Position Size Calculator project)
