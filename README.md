@@ -1,10 +1,10 @@
-# Position Size Calculator 📊
+# Position Size Calculator 
 
 A modern web application to help traders calculate their optimal position size before entering a trade. Built with **Next.js**, **React**, and **TypeScript**, this tool ensures that traders can manage their risk effectively.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **User Inputs**: Accepts portfolio balance, risk percentage, stop loss percentage, and leverage.
 - **Real-Time Calculation**: Computes the position size dynamically based on user inputs.
@@ -13,7 +13,7 @@ A modern web application to help traders calculate their optimal position size b
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 Follow these steps to set up the project locally:
 
@@ -40,7 +40,7 @@ Follow these steps to set up the project locally:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 position-size-calculator/
@@ -60,7 +60,7 @@ position-size-calculator/
 
 ---
 
-## 🧮 How to Use
+## How to Use
 
 1. Enter your **Portfolio Balance** in USDT.
 2. Specify the **Risk of Ruin** percentage.
@@ -70,7 +70,7 @@ position-size-calculator/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Next.js**: Framework for server-side rendering and static site generation.
 - **React**: JavaScript library for building user interfaces.
@@ -80,12 +80,12 @@ position-size-calculator/
 ---
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
 
 ---
 
-## 📧 Contact
+## Contact
 
 For any questions or feedback, feel free to reach out at [kunakorn.contact@gmail.com].
