@@ -1,7 +1,5 @@
 # Position Size Calculator 
 
-A modern web application to help traders calculate their optimal position size before entering a trade. Built with **Next.js**, **React**, and **TypeScript**, this tool ensures that traders can manage their risk effectively.
-
 ---
 
 ## Features
