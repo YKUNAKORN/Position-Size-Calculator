@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-brand-black text-white antialiased;
+        background-image: radial-gradient(circle, #222 1px, transparent 1px);
+        background-size: 24px 24px;
+    }
+}
+
+@layer utilities {
+    .text-shadow-green {
+        text-shadow: 2px 2px 0px #00FFA3;
+    }
+
+    .btn-green {
+        @apply relative px-8 py-3 bg-black border-2 border-brand-green text-brand-green font-bold uppercase tracking-widest transition-all hover:bg-brand-green hover:text-black;
+        box-shadow: 4px 4px 0px 0px #00FFA3;
+    }
+
+    .btn-green:active {
+        transform: translate(2px, 2px);
+        box-shadow: 2px 2px 0px 0px #00FFA3;
+    }
+
+    /* Red Variant */
+    .btn-red {
+        @apply relative px-8 py-3 bg-black border-2 border-brand-red text-brand-red font-bold uppercase tracking-widest transition-all hover:bg-brand-red hover:text-black;
+        box-shadow: 4px 4px 0px 0px #FF2A51;
+    }
+
+    .btn-red:active {
+        transform: translate(2px, 2px);
+        box-shadow: 2px 2px 0px 0px #FF2A51;
+    }
+
+    .input-retro {
+        @apply w-full bg-black border-2 border-gray-800 p-3 text-white focus:outline-none focus:border-brand-green transition-all font-mono;
+    }
+
+    .input-error {
+        @apply focus:border-brand-red;
+    }
+
+    /* Animation Utilities */
+    .animate-fade-in-up {
+        animation: fadeInUp 0.5s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .animate-marquee {
+        animation: marquee 40s linear infinite;
+    }
+
+    .animate-marquee:hover {
+        animation-play-state: paused;
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #0a0a0a;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #00FFA3;
+    }
+}
